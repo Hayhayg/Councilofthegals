@@ -16,6 +16,11 @@ content h2{
   font-weight: 600;
   font-size: 2.25em;
 }
+@media screen and (min-width: 600px) { /*Desktop*/
+  content h2 {
+    font-size: 2em;
+  }
+}
 nav{
   font-size: 1.2em;
   font-weight: 300;
