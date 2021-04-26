@@ -1,0 +1,37 @@
+  content img{
+    width: 65%;
+    border: 2px solid white;
+    max-width: 700px;
+  }
+  .row img{
+    width: 50%;
+  }
+  @media only screen and (min-width: 800px) {
+  .row img{
+    width: 85%;
+    }
+  }
+  .carousel img{
+    width: 100%;
+  
+  }
+  .carousel{
+    width: 50%;
+    margin: auto;
+    max-width: 600px;
+  }
+  .containerFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+  }
+  .flexItem{
+    max-height: 30vw;
+    margin: 2px;
+    width: auto;
+    border: 2px solid white;
+  }
+  #marginFix{
+    margin-top: -1vw;
+    margin-bottom: 1vw;
+  }
