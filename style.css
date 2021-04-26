@@ -1,0 +1,72 @@
+body{
+  font-family: 'Josefin Sans', sans-serif; 
+}
+header h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 800;
+  font-size: 3em;
+}
+content h2{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  
+}
+nav{
+  font-size: 1.2em;
+  font-weight: 300;
+}
+.bg-blue{
+  background-color: #86BFDB;
+}
+.bg-white{
+  background-color: white;
+}
+
+.bg-pink{
+  background-color: rgba(227, 227, 244, 0.781);
+}
+content{
+  font-family: 'Josefin Sans', sans-serif;
+}
+content img{
+  width: 65%;
+  border: 2px solid white;
+  max-width: 700px;
+}
+.row img{
+  width: 50%;
+}
+@media only screen and (min-width: 800px) {
+.row img{
+  width: 85%;
+  }
+}
+.carousel img{
+  width: 100%;
+  
+
+}
+.carousel{
+  width: 50%;
+  margin: auto;
+}
+
+#show{
+  display: none;
+}
+row h3{
+  font-size: 3em;
+  font-weight: 200;
+}
+.containerFlex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly
+}
+.flexItem{
+  max-height: 30vw;
+  margin: 2px;
+  width: auto;
+  border: 2px solid white;
+
+}
