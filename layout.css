@@ -23,13 +23,16 @@
   .containerFlex{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly
+    justify-content: space-around;
+    
   }
   .flexItem{
-    max-height: 30vw;
-    margin: 2px;
-    width: auto;
+
     border: 2px solid white;
+  }
+  content img{
+      max-height: 30vw;
+      width: auto;
   }
   #marginFix{
     margin-top: -1vw;
