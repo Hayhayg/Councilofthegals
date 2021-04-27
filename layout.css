@@ -3,10 +3,10 @@
     border: 2px solid white;
     max-width: 700px;
   }
-  .row img{
+  .row img{ /*Mobile*/
     width: 50%;
   }
-  @media only screen and (min-width: 800px) {
+  @media only screen and (min-width: 800px) { /*Desktop*/
   .row img{
     width: 85%;
     }
@@ -14,13 +14,23 @@
   .carousel img{
     width: 100%;
     margin: auto;
+    align-self: stretch;
+    max-height: none;
+
   
   }
-  .carousel{
-    width: 50%;
+  .carousel{ /*Mobile*/
     margin: auto;
-    max-width: 600px;
+    width: 80%;
+    
+
   }
+  @media only screen and (min-width: 800px) { /*Desktop*/
+    .carousel{
+      width: 45%;
+      max-width: 1000px;
+      }
+    }
   .containerFlex{
     display: flex;
     flex-wrap: wrap;
@@ -43,6 +53,6 @@
   }
 
   form{
-      width: 90vw;
-      margin: auto;
+    width: 90vw;
+    margin: auto;
   }

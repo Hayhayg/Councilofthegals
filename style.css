@@ -11,25 +11,35 @@ header h1{ /*Mobile*/
     font-size: 3em;
   }
 }
-content h2{
+content h2{ /*mobile*/
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 600;
-  font-size: 2.25em;
+  font-weight: 700;
+  font-size: 2em;
 }
 @media screen and (min-width: 600px) { /*Desktop*/
   content h2 {
-    font-size: 2em;
+    font-size: 3em;
   }
 }
 content h3{ /*Mobile*/
   font-weight: 300;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 @media screen and (min-width: 600px) { /*Desktop*/
-  content h3 {
+content h3 {
     font-size: 1.5em;
     font-weight: 200;
 
+  }
+}
+content p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.4em;
+}
+@media screen and (min-width: 600px) { /*Desktop*/
+  content p {
+    font-size: 2em;
   }
 }
 nav{
@@ -52,10 +62,22 @@ content{
 
 #show{
   display: none;
+  padding-top: 20px;
 }
-row h3{
-  font-size: 3em;
-  font-weight: 200;
+#mainPic{
+  width: 73vw;
 }
-
-
+#buttonHide{ /*mobile*/
+  font-size: 1.2em;
+  min-width: 8%;
+}
+@media screen and (min-width: 600px) { /*Desktop*/
+  #buttonHide {
+    font-size: 1.5em;
+  }
+}
+.quote{
+  font-style: italic;
+  font-weight: 300;
+  
+}
