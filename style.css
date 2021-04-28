@@ -136,3 +136,11 @@ content{
     margin-bottom: 1.5vw;
   }
 }
+.bg-dark{
+  background-color: rgba(97, 97, 97, 0.102);
+}
+footer div{
+  padding: 3px;
+  font-family: 'Josefin Sans', sans-serif; 
+
+}
